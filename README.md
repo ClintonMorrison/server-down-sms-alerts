@@ -55,5 +55,5 @@ You can build the application by running `go build` in the `server-down-sms-aler
 
 You can start the application with:
 ```
-./server-down-alerts --config="./config.json"
+./server-down-sms-alerts --config="./config.json"
 ```

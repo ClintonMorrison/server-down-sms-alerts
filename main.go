@@ -6,7 +6,7 @@ func main() {
 	var configFilePath string
 	flag.StringVar(
 		&configFilePath,
-		"svar",
+		"config",
 		"./config.json",
 		"path to a config file (see config.sample.json for an example)")
 	flag.Parse()
