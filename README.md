@@ -1,5 +1,5 @@
 # server-down-sms-alerts
-This is a very basic golang application which can monitor one or more servers. It periodically requests URLs and logs when requests fail.
+This is a simple golang application which can monitor one or more servers. It periodically requests URLs and logs when requests fail.
 
 If multiple requests fail it sends an SMS message with Twilio.
 
