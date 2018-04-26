@@ -1,0 +1,25 @@
+{
+  "twilio": {
+    "phoneNumber": "+11234567890",
+    "sid": "...",
+    "token": "..."
+  },
+  "sites": [
+    {
+      "url": "https://mysite.com",
+      "checkInterval": "10 seconds",
+      "retryAttempts": 2,
+      "downTimeBeforeAlert": "5 minutes",
+      "maximumAlertInterval": "12 hours",
+      "alertNumber": "+12223334444"
+    },
+    {
+      "url": "https://myothersite.com",
+      "checkInterval": "10 seconds",
+      "retryAttempts": 2,
+      "downTimeBeforeAlert": "5 minutes",
+      "maximumAlertInterval": "12 hours",
+      "alertNumber": "+12223334444"
+    }
+  ]
+}
